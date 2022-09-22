@@ -135,7 +135,6 @@ Partial Class Form1
         '
         'F_New
         '
-        Me.F_New.Image = Global.Notepad.My.Resources.Resources.Capture18
         Me.F_New.Name = "F_New"
         Me.F_New.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.N), System.Windows.Forms.Keys)
         Me.F_New.Size = New System.Drawing.Size(180, 22)
@@ -143,7 +142,6 @@ Partial Class Form1
         '
         'F_Open
         '
-        Me.F_Open.Image = Global.Notepad.My.Resources.Resources.Capture19
         Me.F_Open.Name = "F_Open"
         Me.F_Open.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.O), System.Windows.Forms.Keys)
         Me.F_Open.Size = New System.Drawing.Size(180, 22)
@@ -151,7 +149,6 @@ Partial Class Form1
         '
         'F_Save
         '
-        Me.F_Save.Image = Global.Notepad.My.Resources.Resources.Capture20
         Me.F_Save.Name = "F_Save"
         Me.F_Save.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
         Me.F_Save.Size = New System.Drawing.Size(180, 22)
@@ -209,7 +206,6 @@ Partial Class Form1
         '
         'E_Undo
         '
-        Me.E_Undo.Image = Global.Notepad.My.Resources.Resources.Capture13
         Me.E_Undo.Name = "E_Undo"
         Me.E_Undo.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Z), System.Windows.Forms.Keys)
         Me.E_Undo.Size = New System.Drawing.Size(180, 22)
@@ -217,7 +213,6 @@ Partial Class Form1
         '
         'E_Redo
         '
-        Me.E_Redo.Image = Global.Notepad.My.Resources.Resources.Capture14
         Me.E_Redo.Name = "E_Redo"
         Me.E_Redo.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Y), System.Windows.Forms.Keys)
         Me.E_Redo.Size = New System.Drawing.Size(180, 22)
@@ -230,7 +225,6 @@ Partial Class Form1
         '
         'E_Cut
         '
-        Me.E_Cut.Image = Global.Notepad.My.Resources.Resources.Capture7
         Me.E_Cut.Name = "E_Cut"
         Me.E_Cut.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.X), System.Windows.Forms.Keys)
         Me.E_Cut.Size = New System.Drawing.Size(180, 22)
@@ -238,7 +232,6 @@ Partial Class Form1
         '
         'E_Copy
         '
-        Me.E_Copy.Image = Global.Notepad.My.Resources.Resources.Capture8
         Me.E_Copy.Name = "E_Copy"
         Me.E_Copy.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
         Me.E_Copy.Size = New System.Drawing.Size(180, 22)
@@ -246,7 +239,6 @@ Partial Class Form1
         '
         'E_Paste
         '
-        Me.E_Paste.Image = Global.Notepad.My.Resources.Resources.Capture6
         Me.E_Paste.Name = "E_Paste"
         Me.E_Paste.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
         Me.E_Paste.Size = New System.Drawing.Size(180, 22)
@@ -273,7 +265,6 @@ Partial Class Form1
         '
         'E_Find
         '
-        Me.E_Find.Image = Global.Notepad.My.Resources.Resources.Capture151
         Me.E_Find.Name = "E_Find"
         Me.E_Find.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.F), System.Windows.Forms.Keys)
         Me.E_Find.Size = New System.Drawing.Size(180, 22)
@@ -281,7 +272,6 @@ Partial Class Form1
         '
         'E_FindNext
         '
-        Me.E_FindNext.Image = Global.Notepad.My.Resources.Resources.Capture16
         Me.E_FindNext.Name = "E_FindNext"
         Me.E_FindNext.ShortcutKeys = System.Windows.Forms.Keys.F3
         Me.E_FindNext.Size = New System.Drawing.Size(180, 22)
@@ -308,7 +298,6 @@ Partial Class Form1
         '
         'E_SelectAll
         '
-        Me.E_SelectAll.Image = Global.Notepad.My.Resources.Resources.Capture17
         Me.E_SelectAll.Name = "E_SelectAll"
         Me.E_SelectAll.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.A), System.Windows.Forms.Keys)
         Me.E_SelectAll.Size = New System.Drawing.Size(180, 22)
@@ -343,7 +332,6 @@ Partial Class Form1
         '
         'Fo_Font
         '
-        Me.Fo_Font.Image = Global.Notepad.My.Resources.Resources.Capture12
         Me.Fo_Font.Name = "Fo_Font"
         Me.Fo_Font.ShortcutKeys = CType(((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Shift) _
             Or System.Windows.Forms.Keys.F), System.Windows.Forms.Keys)
@@ -353,14 +341,12 @@ Partial Class Form1
         'Fo_WordWrap
         '
         Me.Fo_WordWrap.CheckOnClick = True
-        Me.Fo_WordWrap.Image = Global.Notepad.My.Resources.Resources.icons8_word_wrap_24
         Me.Fo_WordWrap.Name = "Fo_WordWrap"
         Me.Fo_WordWrap.Size = New System.Drawing.Size(189, 22)
         Me.Fo_WordWrap.Text = "Word Wrap"
         '
         'Fo_Bold
         '
-        Me.Fo_Bold.Image = Global.Notepad.My.Resources.Resources.Capture3
         Me.Fo_Bold.Name = "Fo_Bold"
         Me.Fo_Bold.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.B), System.Windows.Forms.Keys)
         Me.Fo_Bold.Size = New System.Drawing.Size(189, 22)
@@ -368,7 +354,6 @@ Partial Class Form1
         '
         'Fo_Italic
         '
-        Me.Fo_Italic.Image = Global.Notepad.My.Resources.Resources.Capture4
         Me.Fo_Italic.Name = "Fo_Italic"
         Me.Fo_Italic.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.I), System.Windows.Forms.Keys)
         Me.Fo_Italic.Size = New System.Drawing.Size(189, 22)
@@ -376,7 +361,6 @@ Partial Class Form1
         '
         'Fo_Underline
         '
-        Me.Fo_Underline.Image = Global.Notepad.My.Resources.Resources.Capture5
         Me.Fo_Underline.Name = "Fo_Underline"
         Me.Fo_Underline.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.U), System.Windows.Forms.Keys)
         Me.Fo_Underline.Size = New System.Drawing.Size(189, 22)
@@ -384,7 +368,6 @@ Partial Class Form1
         '
         'Fo_Strikethrough
         '
-        Me.Fo_Strikethrough.Image = Global.Notepad.My.Resources.Resources.Capture11
         Me.Fo_Strikethrough.Name = "Fo_Strikethrough"
         Me.Fo_Strikethrough.Size = New System.Drawing.Size(189, 22)
         Me.Fo_Strikethrough.Text = "Strikethrough"
@@ -392,28 +375,24 @@ Partial Class Form1
         'Fo_Alignment
         '
         Me.Fo_Alignment.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Fo_Left, Me.Fo_Right, Me.Fo_Center})
-        Me.Fo_Alignment.Image = Global.Notepad.My.Resources.Resources.Capture10
         Me.Fo_Alignment.Name = "Fo_Alignment"
         Me.Fo_Alignment.Size = New System.Drawing.Size(189, 22)
         Me.Fo_Alignment.Text = "Alignment"
         '
         'Fo_Left
         '
-        Me.Fo_Left.Image = Global.Notepad.My.Resources.Resources.icons8_align_text_right_50
         Me.Fo_Left.Name = "Fo_Left"
         Me.Fo_Left.Size = New System.Drawing.Size(114, 22)
         Me.Fo_Left.Text = "Left"
         '
         'Fo_Right
         '
-        Me.Fo_Right.Image = Global.Notepad.My.Resources.Resources.icons8_align_text_left_50
         Me.Fo_Right.Name = "Fo_Right"
         Me.Fo_Right.Size = New System.Drawing.Size(114, 22)
         Me.Fo_Right.Text = "Right"
         '
         'Fo_Center
         '
-        Me.Fo_Center.Image = Global.Notepad.My.Resources.Resources.icons8_align_text_center_50
         Me.Fo_Center.Name = "Fo_Center"
         Me.Fo_Center.Size = New System.Drawing.Size(114, 22)
         Me.Fo_Center.Text = "Center"
@@ -425,28 +404,24 @@ Partial Class Form1
         '
         'Fo_BackgroundColor
         '
-        Me.Fo_BackgroundColor.Image = Global.Notepad.My.Resources.Resources.Capture
         Me.Fo_BackgroundColor.Name = "Fo_BackgroundColor"
         Me.Fo_BackgroundColor.Size = New System.Drawing.Size(189, 22)
         Me.Fo_BackgroundColor.Text = "Background Color"
         '
         'Fo_FontColor
         '
-        Me.Fo_FontColor.Image = Global.Notepad.My.Resources.Resources.Capture9
         Me.Fo_FontColor.Name = "Fo_FontColor"
         Me.Fo_FontColor.Size = New System.Drawing.Size(189, 22)
         Me.Fo_FontColor.Text = "Font Color"
         '
         'Fo_PageColor
         '
-        Me.Fo_PageColor.Image = Global.Notepad.My.Resources.Resources.Capture1
         Me.Fo_PageColor.Name = "Fo_PageColor"
         Me.Fo_PageColor.Size = New System.Drawing.Size(189, 22)
         Me.Fo_PageColor.Text = "Page Color"
         '
         'Fo_TextHighlightColor
         '
-        Me.Fo_TextHighlightColor.Image = Global.Notepad.My.Resources.Resources.Capture2
         Me.Fo_TextHighlightColor.Name = "Fo_TextHighlightColor"
         Me.Fo_TextHighlightColor.Size = New System.Drawing.Size(189, 22)
         Me.Fo_TextHighlightColor.Text = "Text Highlight color"
